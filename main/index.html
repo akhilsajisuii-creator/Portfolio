@@ -1,13 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Test</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akhil | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>HTML IS WORKING</h1>
-    <p>If you see this, browser is fine.</p>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <h2>Akhil</h2>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h1>Hi, I’m Akhil 👋</h1>
+            <p>Final Year IT Student | Aspiring Full Stack Developer</p>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-box">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>🚧 Projects coming soon...</p>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <button type="submit">Send</button>
+            </form>
+
+            <p id="message"></p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Akhil. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
